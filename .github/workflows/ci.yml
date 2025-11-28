@@ -3,9 +3,9 @@ name: CI/CD Node.js Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ tabia ]
   pull_request:
-    branches: [ main ]
+    branches: [ tabia ]
 
 jobs:
   test:
